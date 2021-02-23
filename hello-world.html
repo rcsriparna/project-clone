@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Please place the order</h2>
+    </div>
+
+    <form method='POST' action='/PlaceOrder'>
+
+        <table class="menu">
+            <tr>
+                <td><label for='tbl'>Table Number</label></td>
+                <td><input id='tbl' type='number' name='tableNumber' min="1"></td>
+            </tr>
+            <tr>
+                <td><label for='bgr'>Burger &amp; chips</label></td>
+                <td><input id='bgr' type='number' name='BurgerMeal' min="0"></td>
+            </tr>
+            <tr>
+                <td><label for='fsh'>Fish &amp; chips</label></td>
+                <td><input type='number' id='fsh' name='FishMeal' min="0"></td>
+            </tr>
+            <tr>
+                <td><label for='las'>Lasagne</label></td>
+                <td><input type='number' id='las' name='Lasagne' min="0"></td>
+            </tr>
+            <tr>
+                <td><label for='br'>Beer</label></td>
+                <td><input type='number' id='brs' name="Beers" min="0"></td>
+            </tr>
+            <tr>
+                <td><label for='ck'>Coke</label></td>
+                <td><input type='number' id='cks' name="Cokes" min="0"></td>
+            </tr>
+        </table>
+
+        <br>
+        <br>
+
+        <input type="submit" value="Place Order">
+
+    </form>
+</body>
+</html>
